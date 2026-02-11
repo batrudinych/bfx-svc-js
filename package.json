@@ -1,6 +1,6 @@
 {
   "name": "@bitfinex/bfx-svc-js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Bitfinex Base Service",
   "author": {
     "name": "prdn",
@@ -10,7 +10,7 @@
     "bitfinex"
   ],
   "dependencies": {
-    "bfx-svc-boot-js": "https://github.com/bitfinexcom/bfx-svc-boot-js.git"
+    "@bitfinex/bfx-svc-boot-js": "git+https://github.com/bitfinexcom/bfx-svc-boot-js.git"
   },
   "engines": {
     "node": ">=16.0"
